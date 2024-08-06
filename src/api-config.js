@@ -7,7 +7,7 @@ if(hostname === "localhost") {
 }else{
   // backendHost = "http://todoapplication00-backend0-dev.ap-northeast-2.elasticbeanstalk.com";
   // backendHost = "http://dev.ygyg.kro.kr";
-  backendHost = "http://frontend-todolist-test-env-1.eba-fv22j9yn.ap-northeast-2.elasticbeanstalk.com";
+  backendHost = "http://bacend-todolist-test-env.eba-hkuaqrxm.ap-northeast-2.elasticbeanstalk.com";
 }
 
 export const API_BASE_URL = `${backendHost}`;
